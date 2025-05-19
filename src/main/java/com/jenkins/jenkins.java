@@ -11,5 +11,11 @@ public class jenkins {
 		return name="welcom Jenkins";
 		
 	}
+	
+	@GetMapping(value="getJenkins/getName")
+	public String getJenkinsName(String name) {
+		return name="welcom Jenkins with endpoints";
+		
+	}
 
 }
